@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 streamlit
 scikit-learn
 joblib
 pydeck
 pandas
 plotly
+=======
+streamlit
+scikit-learn
+joblib
+pydeck
+pandas
+plotly
+>>>>>>> 3df281cd58f0a6159c7acbbb4ab54d664c6aabee
