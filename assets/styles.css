@@ -1,0 +1,31 @@
+/* Terminal flicker effect */
+.terminal {
+    background-color: black;
+    color: #00ff99;
+    font-family: 'Courier New', monospace;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #00ffcc;
+    animation: flicker 1s infinite alternate;
+    overflow: auto;
+    max-height: 300px;
+}
+
+@keyframes flicker {
+  0% {opacity: 1;}
+  100% {opacity: 0.9;}
+}
+
+/* Typing effect simulation */
+.typewriter::after {
+  content: '|';
+  animation: blink 1s infinite;
+  color: lime;
+  margin-left: 4px;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
