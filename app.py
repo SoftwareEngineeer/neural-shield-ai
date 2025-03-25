@@ -13,8 +13,9 @@ st.set_page_config(layout="wide", page_title="NEURAL-SHIELD AI", page_icon="🛡
 cyberpunk_theme()
 navbar()
 
-# Sidebar mode switch
-mode = st.sidebar.radio("⚔️ Choose Your Role:", ["🌍 Live Map", "💀 Red Team Console", "🛡️ Blue Team Lab", "📡 AI Radar", "📜 Threat Feed"])
+mode = st.sidebar.radio("⚔️ Choose Your Role:", [
+    "🌍 Live Map", "💀 Red Team Console", "🛡️ Blue Team Lab", "📡 AI Radar", "📜 Threat Feed"
+])
 
 if mode == "🌍 Live Map":
     show_global_map()
@@ -27,7 +28,6 @@ elif mode == "📡 AI Radar":
 elif mode == "📜 Threat Feed":
     show_threat_log()
 
-# 👨‍💻 Credit section in sidebar
 with st.sidebar:
     st.markdown("---")
     st.markdown("👨‍💻 **Made by:** Shivam Mishra & Nguyễn Hồng Linh")

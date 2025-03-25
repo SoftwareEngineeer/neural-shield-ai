@@ -1,6 +1,7 @@
 streamlit
 scikit-learn
 joblib
-pydeck
 pandas
+numpy
+pydeck
 plotly
